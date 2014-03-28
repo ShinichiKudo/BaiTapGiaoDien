@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Welcome screen</string>
+    <string name="action_settings">Settings</string>
+    <string name="workmhchinh">Welcome to the first project of &quot;Softing Alorithms&quot;</string>
+    <string name="title_activity_main_activity1">Choosing screen</string>
+    <string name="manhinh2">First project - Sorting Algorithm</string>
+    <string name="txtview2">Please choose the algorithm (press button below)</string>
+    <string name="button1">Insertion sort</string>
+    <string name="button2">Quick sort</string>
+    <string name="button3">Merge sort</string>
+    <string name="title_activity_manhinh3">Sort algorithm screen</string>
+    <string name="txtview3">Please enter a number of softing (from 1 to 10)</string>
+    <string name="title_activity_manhinh4">Sort array screen</string>
+    <string name="title_activity_result_screen">Result screen</string>
+    <string name="resest">Reset</string>
+    <string name="next">Next</string>
+    <string name="app_name_app">Algorithm Sort</string>
+    <string name="ok">OK</string>
+    <string name="center">center</string>
+
+</resources>

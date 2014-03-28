@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.baitap"
+    android:screenOrientation="portrait"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name_app"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="example.baitap.WelcomeScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="example.baitap.ChoosingScreen"
+            android:label="@string/title_activity_main_activity1" >
+            <intent-filter>
+                <action android:name="example.baitap.ChoosingScreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="example.baitap.SortAlgorithmScreen"
+            android:label="@string/title_activity_manhinh3" >
+            <intent-filter>
+                <action android:name="example.baitap.SoftAlgorithmScreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="example.baitap.SortArrayScreen"
+            android:label="@string/title_activity_manhinh4" >
+            <intent-filter>
+                <action android:name="example.baitap.SoftArrayScreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="example.baitap.ResultScreen"
+            android:label="@string/title_activity_result_screen" >
+            <intent-filter>
+                <action android:name="example.baitap.ResultScreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
